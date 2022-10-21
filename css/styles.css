@@ -109,19 +109,34 @@ main{
     text-decoration: none;
 }
 
-.medias-socias i{
+/* .medias-socias i{
     font-size: 23px;
     margin: 0 3px;
     color: white;
     background-color: rgb(226, 193, 7);
     padding: 7px;
     border-radius: 5px;
-}
+} */
 .img-bx{
     width: 60%;
 }
 .img-bx img{
     width: 100%;
+}
+.redes-icones img{
+    width: 40px;
+}
+.redes-icones img:hover{
+    border: 2px solid #e2c107;
+    border-radius: 50%;
+    cursor: pointer
+}
+.redes-sociais{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    gap: 30px;
 }
 @media (max-width:970px) {
     nav .menu-icon{
