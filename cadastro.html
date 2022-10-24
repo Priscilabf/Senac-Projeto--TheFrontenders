@@ -1,85 +1,87 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Página de cadastro</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/cadastro.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/cadastro.css">
 </head>
 
-<body>
-    <header>
-        <div class="container">
-            <nav>
-                <div class="logo">
-                    <a href="index.html">BotHelp</a>
-                </div>
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Serviços</a>
-                    </li>
-                    <li>
-                        <a href="cadastro.html">Cadastro</a>
-                    </li>
-                    <li>
-                        <a href="#">Contato</a>
-                    </li>
-                    <li>
-                        <a href="#">Login</a>
-                    </li>
-                    <button>BOT</button>
-                </ul>
-                <div class="menu-icon">
-                    <img src="img/menu.png">
-                </div>
-            </nav>
-    </header>
+<header>
+    <div class="container">
+        <!-- nav -->
+        <nav>
+            <div class="logo">
+                <a href="index.html">CodeStyle</a>
+            </div>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">Serviços</a>
+                </li>
+                <li>
+                    <a href="cadastro.html">Cadastro</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+                <li>
+                    <a href="login.html">Login</a>
+                </li>
+                <button>BOT</button>
+            </ul>
+            <div class="menu-icon">
+                <img src="img/menu.png">
+            </div>
+        </nav>
+</header>
 
+<body>
     <center>
+        <br>
+        <br>
+        <br>
         <h1>Página de Cadastro</h1>
+    
+    <!-- Inicio do formulario -->
+    <h3>Preencha os dados abaixo:</h3>
+    <div class="formulario"></div>
+    <form method="get" action=".">
+        <br>
+        <br>
+        <input name="name" type="text" id="name" size="60" placeholder="Nome">
+        <br />
+        <input name="senha" type="password" id="senha" size="60" minlength="8" required placeholder="Senha (min. de 8 caracteres)">
+        <br />
+        <input name="comfimacaosenha" type="password" id="comfirmacaosenha" size="60" minlength="8" required placeholder="Comfirmaçao de senha (min. de 8 caracteres)">
+        <br />
+        <input name="cep" type="text" id="cep" value="" size="60" placeholder="CEP" maxlength="9" onblur="pesquisacep(this.value);" />
+        <br />
+        <input name="rua" type="text" id="rua" size="60" placeholder="Rua" />
+        <br />
+        <input name="bairro" type="text" id="bairro" size="60" placeholder="Bairro" />
+        <br />
+        <input name="cidade" type="text" id="cidade" size="60" placeholder="Cidade" />
+        <br />
+        <input name="uf" type="text" id="uf" size="60" placeholder="Estado" />
+        <br />
+        <input name="ibge" type="text" id="ibge" size="60" placeholder="IBGE" />
+        <br />
+        <button name="enviar" id="enviar" class="enviar">Cadastrar</button>
+    </form>
     </center>
-    <main>
-        <form method="get" action=".">
-            <center>
-                <div>
-                    <h3>Preencha os dados abaixo:</h2>
-                        <input name="nome" type="text" id="nome" size="60" placeholder="Nome" required>
-                        <br>
-                        <input type="password" id="senha" name="senha" size="60" minlength="8" required placeholder="Senha (min. de 8 caracteres)">
-                        <br>
-                        <input type="password" id="confsenha" name="confsenha" size="60" minlength="8" required placeholder="Confirmação de senha (min. de 8 caracteres)">
-                        <br>
-                        <input name="email" type="text" id="email" size="60" placeholder="E-mail" required />
-                        <br>
-                        <input name="cep" type="text" id="cep" value="" size="60" placeholder="CEP" maxlength="9" onblur="pesquisacep(this.value);"
-                            required/>
-                        <br>
-                        <input name="rua" type="text" id="rua" placeholder="Rua" size="60" required />
-                        <br>
-                        <input name="bairro" type="text" id="bairro" size="60" placeholder="Bairro" required />
-                        <br>
-                        <input name="cidade" type="text" id="cidade" size="60" placeholder="Cidade" required />
-                        <br>
-                        <input name="uf" type="text" id="uf" size="60" maxlength="2" placeholder="UF" required />
-                        <br>
-                        <button name="enviar" id "enviar" class="enviar" >Enviar cadastro!</button>
-                </div>
-            </center>
-    </main>
+    </div>
 
     <footer class="medias-socias">
         <div class="redes-icones">
-                <img src="img/facebook.png">
-                <img src="img/instagram.png">
-                <img src="img/twitter.png">
-                <img src="img/whatsapp.png">
+            <img src="img/facebook.png">
+            <img src="img/instagram.png">
+            <img src="img/twitter.png">
+            <img src="img/whatsapp.png">
         </div>
     </footer>
+
     <script src="script/cadastro.js"></script>
 </body>
 

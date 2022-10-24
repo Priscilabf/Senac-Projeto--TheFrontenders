@@ -90,10 +90,13 @@ h1, h3 {
     text-transform: uppercase;
     gap: 30px;
 }
-footer{
-  
+.medias-socias{
+    margin-top: 150px;
 }
-
+form{
+    background:#5654b35d;
+    width: 500px;
+}
 @media (max-width:970px) {
     nav .menu-icon{
         display: block;
@@ -140,4 +143,5 @@ footer{
     .text-bx .input-bx{
         justify-content: center;
     }
+  
 }
