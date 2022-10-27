@@ -179,10 +179,11 @@ main{
   width: 380px;
   padding: 50px 30px;
   border-radius: 10px;
-  box-shadow:7px 7px 60px #000;
+  box-shadow:7px 7px 300px #5654b3be;
+  background-color: #5654b3;
 }
 h1{
-  color: #5654b3;
+  color: white;
   font-size: 2em;
   text-transform: uppercase;
   text-align: center;
