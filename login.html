@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <header>
+<div class="container">
+      <!-- nav -->
+      <nav>
+       <div class="logo">
+          <a href="index.html">BotHelp</a>
+       </div>
+       <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="login.html">Login</a></li>
+          <button>BOT</button>
+          </ul>
+       <div class="menu-icon">
+          <img src="img/menu.png">
+       </div>
+      </nav>
+    </header>
+
+    <!-- LOGIN -->
+    <section>
+    <center>    
+    <div class="wrapper">
+        <h1>Login</h1>
+        <form action="#">
+            <div class="field email">
+                    <label for="email">E-mail</label>
+                <div class="input-area">
+                    <input type="text" placeholder="Inserir E-mail">
+                    <i class="icon fas fa-envelope"></i>
+                    <i class="error error-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">E-mail não pode ficar em branco</div>
+            </div>
+
+            <div class="field password">
+                    <label for="psw">Senha</label>
+                <div class="input-area">
+                    <input type="password" placeholder="Senha">
+                    <i class="icon fas fa-lock"></i>
+                    <i class="error error-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Senha não pode ficar em branco</div>
+            </div>
+
+            <div class="pass-txt"><a href="#">Esqueceu senha?</a></div>
+            <input type="submit" value="Entrar">
+        </form>
+
+        <div class="sign-txt">Ainda não é membro? <a href="#">Cadastre-se</a></div>
+
+    </div>
+    </center>
+    </section>
+
+</div>
+
+<footer class="medias-socias">
+    <div class="redes-icones">
+            <img src="img/facebook.png">
+            <img src="img/instagram.png">
+            <img src="img/twitter.png">
+            <img src="img/whatsapp.png">
+    </div>
+</footer>
+
+
+<script src="script/login.js"></script>    
+</body>
+</html>
