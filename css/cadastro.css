@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
-    margin: 12px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto',sans-serif;
@@ -64,6 +64,7 @@ nav ul button{
     font-size: 16px;
     letter-spacing: 1px;
     margin-left: 20px;
+    margin-bottom: 10px;
     cursor: pointer;
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
@@ -85,19 +86,26 @@ h1, h3 {
     width: 40px;
 }
 .redes-icones img:hover{
-    border: 2px solid #e2c107;
+    border: 2px solid #e2c1073d;
     border-radius: 50%;
-    cursor: pointer
+    cursor: pointer;
+}
+.redes-icones div{
+    width: 100%;
 }
 .redes-sociais{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     color: white;
     text-transform: uppercase;
     gap: 30px;
 }
 .medias-socias{
-    margin-top: 150px;
+    margin-top: 300px;
+    position: absolute;
+}
+footer{
+    width: 100%;
 }
 form{
     background:#5654b3be;
@@ -107,12 +115,16 @@ form{
 }
 input {
     background-origin: padding-box;
-    box-shadow: 2px 2px 5px #000;
+    box-shadow: 2px 2px 5px #f18ec5;
     border: 2px solid #ffffff83;
     border-radius: 4px;
     height: 35px;
-    background-color: #ffffff83;
+    background-color: #ffffff;
     transition: width 0.9s ease-in-out;
+    margin: 10px;
+}
+.info-termos{
+
 }
 @media (max-width:970px) {
     nav .menu-icon{
