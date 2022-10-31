@@ -62,13 +62,13 @@ h1{
     font-size: 2em;
     text-align: center;
     margin-bottom: 2em;
-    color: #5654b3;
+    color: #4845d4;
     margin-bottom: 5px;
 }
 
 main{
     position: relative;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background-size: cover;
     background-position: center center;
@@ -236,24 +236,38 @@ form input[type="submit"]:hover {
 
 
 /*FOOTER*/
-.redes-icones img{
-    width: 40px;
+
+p{
+    color: #000;
+    font-size: 1rem;
+    padding: 0;
 }
-.redes-icones img:hover{
+.link-dark img{
+    width: 40px;
+    margin: 0;
+}
+.link-dark img:hover{
     border: 2px solid #e2c107;
     border-radius: 50%;
     cursor: pointer
 }
-.redes-sociais{
-    display: flex;
+.link-dark{
     align-items: center;
-    color: white;
     text-transform: uppercase;
     gap: 30px;
 }
-.medias-socias{
-    margin-top: 100px;
+.list-unstyled{
+    width: 20px;
+    margin: 0 auto;
+    justify-content: center;
 }
+
+.py-5{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+
 
 @media (max-width:970px) {
     nav .menu-icon{
@@ -305,3 +319,4 @@ form input[type="submit"]:hover {
     }
   
 }
+
