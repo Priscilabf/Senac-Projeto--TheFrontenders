@@ -58,6 +58,7 @@ nav ul button{
 .enviar{
     border: none;
     background-color: #5654b3;
+    box-shadow: 2px 2px 5px #f18ec5;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -86,7 +87,7 @@ h1, h3 {
     width: 40px;
 }
 .redes-icones img:hover{
-    border: 2px solid #e2c1073d;
+    border: 2px solid #e2c107;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -101,7 +102,7 @@ h1, h3 {
     gap: 30px;
 }
 .medias-socias{
-    margin-top: 300px;
+    margin-top: 100px;
     position: absolute;
 }
 footer{
