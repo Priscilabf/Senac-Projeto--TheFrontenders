@@ -63,10 +63,9 @@ h1{
     text-align: center;
     margin-bottom: 2em;
     color: #5654b3;
-    margin-bottom: 5px;
 }
 
-main{
+section{
     position: relative;
     height: 100vh;
     width: 100%;
@@ -88,11 +87,11 @@ label{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #5654b3be;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
     width: 380px;
     padding: 50px 30px;
     border-radius: 15px;
-    box-shadow: 4px 4px 30px rgb(0, 0, 0);
+    box-shadow: 7px 7px 60px rgb(0, 0, 0);
 }
 
 .wrapper section {
@@ -139,20 +138,19 @@ form input {
     padding: 0 40px;
     font-size: 15px;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px #f18ec5;
-    border: 2px solid #ffffff83;
+    border: 1px solid #696969;
     border-bottom-width: 2px;
     transition: all 0.2s ease;
 }
 
 form .field input:focus,
 form .field.valid input {
-    border-color: #e2c107;
+    border-color: #5372F0;
 }
 
 form .field.shake input,
 form .field.error input {
-    border-color: #bb1021;
+    border-color: #dc3545;
 }
 
 .field .input-area i {
@@ -171,7 +169,7 @@ form .field.error input {
 
 .input-area .error-icon {
     right: 15px;
-    color: #a50b1b;
+    color: #dc3545;
 }
 
 form input:focus~.icon,
@@ -190,7 +188,7 @@ form input::placeholder {
 }
 
 form .field .error-txt {
-    color: #b81223;
+    color: #dc3545;
     text-align: left;
     margin-top: 5px;
 }
@@ -210,7 +208,7 @@ form .pass-txt {
 }
 
 .wrapper a {
-    color: #1738bd;
+    color: #5372F0;
     text-decoration: none;
 }
 
@@ -224,14 +222,14 @@ form input[type="submit"] {
     color: #fff;
     padding: 0;
     border: none;
-    background: #5654b3;
+    background: #6462db;
     cursor: pointer;
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
 
 form input[type="submit"]:hover {
-    box-shadow: inset 0 100px 0 0 #e2c107;
+    background: #5654b3;
 }
 
 
@@ -252,7 +250,7 @@ form input[type="submit"]:hover {
     gap: 30px;
 }
 .medias-socias{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 @media (max-width:970px) {
@@ -260,7 +258,6 @@ form input[type="submit"]:hover {
         display: block;
     }
     nav ul{
-        z-index: 1;
         position: fixed;
         width: 60%;
         height: 100%;
@@ -289,7 +286,6 @@ form input[type="submit"]:hover {
         font-size: 18px;
         margin: 10px;
     }
-    
     main{
         flex-direction: column;
     }

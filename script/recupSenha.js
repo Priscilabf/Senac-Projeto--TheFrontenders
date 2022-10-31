@@ -14,7 +14,6 @@ function validacao() {
     }else if(!filtro.test(email.value)){
         alert("E-mail inválido. Tente novamente.")
     }else{
-        alert("código enviado com sucesso, verifique seu email.");
-        window.location.href = "login.html"
+        alert("código enviado com sucesso, verifique seu email.")
     }
 } 
