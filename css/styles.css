@@ -108,21 +108,40 @@ main{
 .img-bx img{
     width: 100%;
 }
-.redes-icones img{
-    width: 40px;
+
+/*FOOTER*/
+
+p{
+    color: #000;
+    font-size: 1rem;
+    padding: 0;
 }
-.redes-icones img:hover{
+.link-dark img{
+    width: 40px;
+    margin: 0;
+}
+.link-dark img:hover{
     border: 2px solid #e2c107;
     border-radius: 50%;
     cursor: pointer
 }
-.redes-sociais{
-    display: flex;
+.link-dark{
     align-items: center;
-    color: white;
     text-transform: uppercase;
     gap: 30px;
 }
+.list-unstyled{
+    width: 20px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.py-5{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+
 @media (max-width:970px) {
     nav .menu-icon{
         display: block;

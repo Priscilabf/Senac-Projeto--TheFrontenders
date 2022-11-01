@@ -55,6 +55,8 @@ nav ul button{
     margin-left: 20px;
     cursor: pointer;
 }
+
+/*Cadastro*/
 .enviar{
     border: none;
     background-color: #5654b3;
@@ -83,31 +85,6 @@ main{
 h1, h3 {
     color: #5654b3;
 }
-.redes-icones img{
-    width: 40px;
-}
-.redes-icones img:hover{
-    border: 2px solid #e2c107;
-    border-radius: 50%;
-    cursor: pointer;
-}
-.redes-icones div{
-    width: 100%;
-}
-.redes-sociais{
-    display: flex;
-    align-items: flex-start;
-    color: white;
-    text-transform: uppercase;
-    gap: 30px;
-}
-.medias-socias{
-    margin-top: 100px;
-    position: absolute;
-}
-footer{
-    width: 100%;
-}
 form{
     background:#5654b3be;
     width: 500px;
@@ -124,9 +101,40 @@ input {
     transition: width 0.9s ease-in-out;
     margin: 10px;
 }
-.info-termos{
 
+/*FOOTER*/
+
+p{
+    color: #000;
+    font-size: 1rem;
+    padding: 0;
 }
+.link-dark img{
+    width: 40px;
+    margin: 0;
+}
+.link-dark img:hover{
+    border: 2px solid #e2c107;
+    border-radius: 50%;
+    cursor: pointer
+}
+.link-dark{
+    align-items: center;
+    text-transform: uppercase;
+    gap: 30px;
+}
+.list-unstyled{
+    width: 20px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.py-5{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+
 @media (max-width:970px) {
     nav .menu-icon{
         display: block;
