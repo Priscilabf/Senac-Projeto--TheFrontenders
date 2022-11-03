@@ -181,9 +181,9 @@ main{
 
 }
 
+
 .card-preco
 {
-	flex:1;
 	max-width: 360px;
 	background-color:white;
 	margin: 20px 10px;
