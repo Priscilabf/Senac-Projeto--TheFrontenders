@@ -62,13 +62,13 @@ h1{
     font-size: 2em;
     text-align: center;
     margin-bottom: 2em;
-    color: #5654b3;
+    color: #4845d4;
     margin-bottom: 5px;
 }
 
 main{
     position: relative;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background-size: cover;
     background-position: center center;
@@ -84,6 +84,7 @@ label{
 }
 
 .wrapper {
+    margin-top: 4%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -95,7 +96,7 @@ label{
     box-shadow: 4px 4px 30px rgb(0, 0, 0);
 }
 
-.wrapper section {
+.wrapper main {
     font-size: 20px;
     font-weight: 600;
 }
@@ -236,23 +237,39 @@ form input[type="submit"]:hover {
 
 
 /*FOOTER*/
-.redes-icones img{
-    width: 40px;
+
+p{
+    color: #000;
+    font-size: 1rem;
+    padding: 0;
 }
-.redes-icones img:hover{
+.link-dark img{
+    width: 40px;
+    margin: 0;
+}
+.link-dark img:hover{
     border: 2px solid #e2c107;
     border-radius: 50%;
     cursor: pointer
 }
-.redes-sociais{
-    display: flex;
+.link-dark{
     align-items: center;
-    color: white;
     text-transform: uppercase;
     gap: 30px;
 }
-.medias-socias{
-    margin-top: 100px;
+.list-unstyled{
+    width: 20px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.py-5{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+footer{
+    margin-top: 5%;
 }
 
 @media (max-width:970px) {
@@ -303,5 +320,34 @@ form input[type="submit"]:hover {
     .text-bx .input-bx{
         justify-content: center;
     }
-  
+    main .wrapper{
+        margin-top: 20%;
+    }
+    
+    footer{
+        margin-top: 30%;
+    }
+    form .field .input-area{
+        height: 2.5em;
+        position: relative;
+        margin-left: -10px;
+        width: 70%;
+    }
+
+    form input[type="submit"] {
+        width: 50%;
+    }
+    .wrapper {
+        position: absolute;
+        top: 40%;
+        left: 45%;
+        right: 30%;
+        transform: translate(-50%, -50%);
+        background: #5654b3be;
+        width: 50vh;
+        padding: 40px 20px;
+        border-radius: 15px;
+        box-shadow: 4px 4px 30px rgb(0, 0, 0);
+    }
 }
+

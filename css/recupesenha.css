@@ -108,26 +108,154 @@ main{
 .img-bx img{
     width: 100%;
 }
-.redes-icones img{
-    width: 40px;
+
+
+/*FOOTER*/
+
+p{
+    color: #000;
+    font-size: 1rem;
+    padding: 0;
 }
-.redes-icones img:hover{
+.link-dark img{
+    width: 40px;
+    margin: 0;
+}
+.link-dark img:hover{
     border: 2px solid #e2c107;
     border-radius: 50%;
     cursor: pointer
 }
-.redes-sociais{
-    display: flex;
+.link-dark{
     align-items: center;
-    color: white;
     text-transform: uppercase;
     gap: 30px;
 }
+.list-unstyled{
+    width: 20px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.py-5{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+/*Recup senha*/
+h1{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+    color: #4845d4;
+    margin-bottom: 5px;
+}
+
+section{
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #5654b3be;
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 30px rgb(0, 0, 0);
+}
+
+.form-container section{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+form .control{
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+form .control.shake {
+    animation: shake 0.3s ease-in-out;
+}
+
+@keyframes shake {
+    0%,
+    100% {
+        margin-left: 0px;
+    }
+    20%,
+    80% {
+        margin-left: -12px;
+    }
+    40%,
+    60% {
+        margin-left: 12px;
+    }
+}
+
+form .control .int{
+    height: 2.5em;
+    position: relative;
+}
+
+form input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 0 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #f18ec5;
+    border: 2px solid #ffffff83;
+    border-bottom-width: 2px;
+    transition: all 0.2s ease;
+}
+.control input{
+    padding: 10px;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    margin: 1em 0;
+}  
+
+form .control input:focus,
+form .control.valid input {
+    border-color: #e2c107;
+}
+
+form input[type="submit"] {
+    height: 50px;
+    margin-top: 15px;
+    color: #fff;
+    padding: 0;
+    border: none;
+    background: #5654b3;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    box-shadow: inset 0 100px 0 0 #e2c107;
+}
+
+/*RESPONSIVIDADE*/
 @media (max-width:970px) {
     nav .menu-icon{
         display: block;
     }
     nav ul{
+        z-index: 1;
         position: fixed;
         width: 60%;
         height: 100%;
@@ -170,58 +298,4 @@ main{
     .text-bx .input-bx{
         justify-content: center;
     }
-}
-.form-container{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  width: 380px;
-  padding: 50px 30px;
-  border-radius: 10px;
-  box-shadow:7px 7px 300px #5654b3be;
-  background-color: #5654b3;
-}
-h1{
-  color: white;
-  font-size: 2em;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 2rem;
-}
-.control input{
-  padding: 10px;
-  font-size: 16px;
-  display: block;
-  width: 100%;
-  color:#000;
-  background: #ddd;
-  outline: none;
-  border: none;
-  margin: 1em 0;
-
-}         
-.control .btn{
-  color: #fff;
-  text-transform: uppercase;
-  background: rgb(255, 193, 7);
-  opacity: .7;
-  transition:opacity .3s ease;
-}
-.btn:focus{
-  opacity: 1;
-}
-p{
-  text-align: center;
-}
-a{
-  text-decoration: none;
-  color: #fff;
-  opacity: .7;
-}
-a:hover{
-  opacity: 1;
-}
-.medias-socias{
-    margin-top: 720px;
 }

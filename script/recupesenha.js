@@ -1,3 +1,20 @@
+var menu = document.querySelector('nav ul');
+var menuBar = document.querySelector('nav .menu-icon');
+var iconMenu = document.querySelector('nav .menu-icon img');
+
+menuBar.addEventListener('click',function(){
+
+    if (iconMenu.getAttribute("src") == 'img/menu.png') {
+        iconMenu.setAttribute("src","img/close.png");
+    }else{
+        iconMenu.setAttribute("src","img/menu.png");
+    }
+
+   menu.classList.toggle('active');
+});
+
+
+//Parte RECUP. SENHA
 let email = document.getElementById('psw');
 let btn = document.getElementById('btn1');
 let filtro = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
