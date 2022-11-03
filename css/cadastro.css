@@ -266,12 +266,12 @@ p{
         justify-content: center;
     }
   
-    .formulario{
+    main .formulario{
         margin-top: 40%;
     }
 
     .text{
-        margin-top: 10%;
+        margin-top: 20%;
     }
     form .field .input-area{
         height: 2.5em;
