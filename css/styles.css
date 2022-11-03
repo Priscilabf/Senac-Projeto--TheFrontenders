@@ -177,6 +177,7 @@ p{
     }
     main{
         flex-direction: column;
+        margin-top: 15%;
     }
     .text-bx,
     .img-bx{
