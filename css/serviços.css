@@ -271,3 +271,35 @@ main{
     color:rgba(255, 0, 0, 0.603);
     
 }
+
+/*FOOTER*/
+
+p{
+    color: #000;
+    font-size: 1rem;
+    padding: 0;
+}
+.link-dark img{
+    width: 40px;
+    margin: 0;
+}
+.link-dark img:hover{
+    border: 2px solid #e2c107;
+    border-radius: 50%;
+    cursor: pointer
+}
+.link-dark{
+    align-items: center;
+    text-transform: uppercase;
+    gap: 30px;
+}
+.list-unstyled{
+    width: 20px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.py-5{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
