@@ -141,6 +141,11 @@ p{
     padding-top: 0 !important;
     padding-bottom: 0 !important;
 }
+.topp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /*Recup senha*/
 h1{
@@ -298,4 +303,22 @@ form input[type="submit"]:hover {
     .text-bx .input-bx{
         justify-content: center;
     }
+
+    .form-container{
+         position: absolute;
+        top: 40%;
+        left: 45%;
+        right: 25%;
+        transform: translate(-50%, -50%);
+        background: #5654b3be;
+        width: 40vh;
+        padding: 40px 20px;
+        border-radius: 15px;
+        box-shadow: 4px 4px 30px rgb(0, 0, 0);
+    }
+
+    .topp{
+        flex-direction: column;
+    }
+
 }

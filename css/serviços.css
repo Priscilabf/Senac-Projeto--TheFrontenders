@@ -122,6 +122,8 @@ main{
     color: white;
     text-transform: uppercase;
 }
+
+
 @media (max-width:970px) {
     nav .menu-icon{
         display: block;
@@ -168,6 +170,10 @@ main{
     }
     .text-bx .input-bx{
         justify-content: center;
+    }
+    
+    .topp{
+        flex-direction: column;
     }
 }
 
@@ -265,11 +271,11 @@ main{
 	background-color: #e2c107;
 	color: #fff; 
 }
-.definicao{
+.definicao p{
     font-style: italic;
     text-align: center;
-    color:rgba(255, 0, 0, 0.603);
-    
+    color:#e789ce;
+    font-size: 23px;
 }
 
 /*FOOTER*/
@@ -302,4 +308,9 @@ p{
 .py-5{
     padding-top: 0 !important;
     padding-bottom: 0 !important;
+}
+.topp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

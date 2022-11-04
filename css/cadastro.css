@@ -214,7 +214,11 @@ p{
     padding-top: 0 !important;
     padding-bottom: 0 !important;
 }
-
+.topp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 @media (max-width:970px) {
@@ -277,7 +281,7 @@ p{
         height: 2.5em;
         position: relative;
         margin-left: -10px;
-        width: 70%;
+        width: 90%;
     }
 
     form input[type="submit"] {
@@ -286,13 +290,16 @@ p{
     .formulario{
         position: absolute;
         top: 40%;
-        left: 50%;
-        right: 30%;
+        left: 45%;
+        right: 25%;
         transform: translate(-50%, -50%);
         background: #5654b3be;
-        width: 60vh;
+        width: 40vh;
         padding: 40px 20px;
         border-radius: 15px;
         box-shadow: 4px 4px 30px rgb(0, 0, 0);
+    }
+    .topp{
+        flex-direction: column;
     }
 }
