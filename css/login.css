@@ -74,6 +74,8 @@ main{
     background-position: center center;
 }
 
+
+
 label{
     color: #ffffff;
     background: #5654b3 ;
@@ -276,6 +278,7 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
 
 @media (max-width:970px) {
     nav .menu-icon{
