@@ -62,6 +62,7 @@ nav ul button{
     margin-top: 10%;
     width: 45%;
     height: 85%;
+    max-width: 45%;
 }
 
 .carousel-control-prev, 
@@ -79,6 +80,7 @@ nav ul button{
 .carousel-inner{
     margin-left: 25%;
     margin-right: 25%;
+    width: 100%;
 }
 
 .icon{
