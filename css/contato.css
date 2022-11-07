@@ -57,32 +57,18 @@ nav ul button{
 }
 
 /*PARTE CONTATO*/
-h5{
-    color: #ffffff;
-    width: 50%;
-    padding: 10px;
-    border-radius: 25px;
-    box-shadow: 2px 2px 5px #5654b3;
-    font-size: 1.5em;
-    margin-left: 25%;
-    margin-bottom: 2em;
-    margin-bottom: 5px;
-}
 
-main{
-    margin-top: 5%;
-    height: 100%;
-    width: 85%;
-    background-size: cover;
-    background-position: center center;
+.carousel-item{
+    margin-top: 10%;
+    width: 45%;
+    height: 85%;
 }
-
 
 .carousel-control-prev, 
 .carousel-control-next{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 40%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 25%;
     width: 50px;
     height: 50px;
     border-radius: 25px;
@@ -91,8 +77,8 @@ main{
 }
 
 .carousel-inner{
-    width: 75%;
-    height: 80%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .icon{
