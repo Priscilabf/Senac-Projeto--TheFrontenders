@@ -59,17 +59,14 @@ nav ul button{
 /*PARTE CONTATO*/
 
 .carousel-item{
-    margin-top: 10%;
-    width: 45%;
-    height: 85%;
-    max-width: 45%;
+    margin-top: 5%;
 }
 
 .carousel-control-prev, 
 .carousel-control-next{
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15%;
     width: 50px;
     height: 50px;
     border-radius: 25px;
@@ -77,11 +74,7 @@ nav ul button{
     background: #f18ec5;
 }
 
-.carousel-inner{
-    margin-left: 25%;
-    margin-right: 25%;
-    width: 100%;
-}
+
 
 .icon{
     width: 50px;
@@ -98,6 +91,7 @@ nav ul button{
     text-transform: uppercase;
     gap: 30px;
 }
+
 
 /*FOOTER*/
 
@@ -203,20 +197,15 @@ p{
     form input[type="submit"] {
         width: 50%;
     }
-    .formulario{
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        right: 30%;
-        transform: translate(-50%, -50%);
-        background: #5654b3be;
-        width: 60vh;
-        padding: 40px 20px;
-        border-radius: 15px;
-        box-shadow: 4px 4px 30px rgb(0, 0, 0);
+
+    .carousel-indicators{
+        z-index: -1;
+        margin-top: 20%;
     }
-    .topp{
-        flex-direction: column;
+    .carousel-control-prev,
+    .carousel-control-next{
+        z-index: -1;
     }
+
 }
 

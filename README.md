@@ -1,5 +1,6 @@
 # Senac-Projeto--TheFrontenders
-Integrantes (O @ do github): Priscilabf, EloisePR, Rfknzg, BeatriceMacruz, #5kauanecard;
+Integrantes (O @ do github): Priscilabf, EloisePR, Rfknzg, BeatriceMacruz, kauanecard;
+
 https://priscilabf.github.io/Senac-Projeto--TheFrontenders/
 <h3>MEMBROS DO PROJETO E SUAS FUNÇÕES</h3>
  <ul>
